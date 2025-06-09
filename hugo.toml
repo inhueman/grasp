@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://graspmedia.netlify.app/"
+baseURL = "https://graspdc.netlify.app/"
 # Title of your website (required).
 title = "Grasp Digital Communications"
 # Your theme name
