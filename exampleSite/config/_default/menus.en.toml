@@ -1,0 +1,69 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Services"
+url = "/services"
+weight = 3
+
+[[main]]
+name = "Work"
+url = "/work"
+weight = 4
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Services"
+url = "/services"
+weight = 2
+
+[[footer]]
+name = "Work"
+url = "/work"
+weight = 3
+
+[[footer]]
+name = "Blog"
+url = "/blog"
+weight = 4
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 5
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 6
+
+[[footer]]
+name = "Terms & Conditions"
+url = "/terms-conditions"
+weight = 7

@@ -1,0 +1,94 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Services"
+url = "/services"
+weight = 3
+hasChildren = true
+
+[[main]]
+parent = "Services"
+name = "Social Media Marketing"
+url = "/services/social-media-marketing"
+weight = 1
+
+[[main]]
+parent = "Services"
+name = "Content Development"
+url = "/services/content-development"
+weight = 2
+
+[[main]]
+parent = "Services"
+name = "Digital PR"
+url = "/services/digital-pr"
+weight = 3
+
+[[main]]
+parent = "Services"
+name = "Digital Brand Identity"
+url = "/services/digital-brand-identity"
+weight = 4
+
+[[main]]
+name = "Work"
+url = "/work"
+weight = 4
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Services"
+url = "/services"
+weight = 2
+
+[[footer]]
+name = "Work"
+url = "/work"
+weight = 3
+
+[[footer]]
+name = "Blog"
+url = "/blog"
+weight = 4
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 5
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 6
+
+[[footer]]
+name = "Terms & Conditions"
+url = "/terms-conditions"
+weight = 7
