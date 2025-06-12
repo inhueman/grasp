@@ -1,0 +1,38 @@
+/* Electra Font Family imports */
+
+@font-face {
+  font-family: 'Electra';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/electra_n4.woff2') format('woff2'),
+       url('/fonts/electra_n4.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Electra';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/electra_n7.woff2') format('woff2'),
+       url('/fonts/electra_n7.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Electra';
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/electra_i4.woff2') format('woff2'),
+       url('/fonts/electra_i4.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Electra';
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/electra_i7.woff2') format('woff2'),
+       url('/fonts/electra_i7.woff') format('woff');
+}
+
