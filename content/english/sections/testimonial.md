@@ -5,18 +5,18 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Jojo Shanti"
+    designation: "Creative Designer"
     avatar: "/images/avatar-sm.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Fabian Kinyua"
+    designation: "CEO Mianzi Innovations"
     avatar: "/images/avatar-sm.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Vivian Njagi"
+    designation: "Communication Strategist"
     avatar: "/images/avatar-sm.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
