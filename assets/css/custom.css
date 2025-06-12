@@ -1,69 +1,63 @@
-/* Coffee Lab Nairobi inspired styles with new colors */
 
-/* Import Electra font */
-@font-face {
-  font-family: 'Electra';
-  src: url('https://fonts.cdnfonts.com/css/electra-lt-std') format('woff2'),
-       url('https://fonts.cdnfonts.com/css/electra-lt-std') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+/* Coffee Lab Nairobi style buttons with new colors - Outline style with rounded ends */
+.btn-primary {
+  background-color: transparent !important;
+  border: 2px solid #c97b63 !important;
+  color: #c97b63 !important;
+  border-radius: 50px !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
 }
 
-/* Alternative import if the above doesn't work */
-@import url('https://fonts.cdnfonts.com/css/electra-lt-std');
-
-/* Base typography styles matching Coffee Lab Nairobi */
-html {
-  font-size: calc(var(--font-body-scale, 1) * 62.5%);
-  box-sizing: border-box;
-}
-
-/* Additional custom styles */
-body {
-  font-family: 'Electra', serif;
-  font-size: 1.5rem;
-  letter-spacing: 0.06rem;
-  line-height: calc(1 + 0.8 / var(--font-body-scale, 1));
-  color: #333333;
-  background-color: #fcfcfc;
-}
-
-@media screen and (min-width: 750px) {
-  body {
-    font-size: 1.6rem;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Electra', serif;
-  font-weight: bold;
-  color: #000000;
-  letter-spacing: calc(var(--font-heading-scale, 1) * 0.06rem);
-  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale, 1)));
-}
-
-/* Coffee Lab Nairobi style buttons with new colors */
-.btn-primary, .btn-outline-primary:hover {
+.btn-primary:hover {
   background-color: #c97b63 !important;
-  border-color: #c97b63 !important;
   color: #fcfcfc !important;
 }
 
 .btn-outline-primary {
-  border-color: #c97b63 !important;
+  background-color: transparent !important;
+  border: 2px solid #c97b63 !important;
   color: #c97b63 !important;
+  border-radius: 50px !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
 }
 
-.btn-secondary, .btn-outline-secondary:hover {
+.btn-outline-primary:hover {
+  background-color: #c97b63 !important;
+  color: #fcfcfc !important;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  border: 2px solid #7a7f5a !important;
+  color: #7a7f5a !important;
+  border-radius: 50px !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-secondary:hover {
   background-color: #7a7f5a !important;
-  border-color: #7a7f5a !important;
   color: #fcfcfc !important;
 }
 
 .btn-outline-secondary {
-  border-color: #7a7f5a !important;
+  background-color: transparent !important;
+  border: 2px solid #7a7f5a !important;
   color: #7a7f5a !important;
+  border-radius: 50px !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #7a7f5a !important;
+  color: #fcfcfc !important;
 }
 
 /* Links with new primary color */
